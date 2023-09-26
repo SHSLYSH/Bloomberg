@@ -1,7 +1,7 @@
 import blpapi
 
 sessionOptions = blpapi.SessionOptions()
-sessionOptions.setServerHost("")  # Bloomberg server host
+sessionOptions.setServerHost("localhost")  # Bloomberg server host
 sessionOptions.setServerPort(8194)         # Bloomberg server port
 
 session = blpapi.Session(sessionOptions)
